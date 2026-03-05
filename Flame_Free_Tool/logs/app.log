@@ -1,0 +1,10 @@
+
+============================================================
+Crash Time: 2026-02-19 14:08:06.584452
+Traceback (most recent call last):
+  File "e:\FLAME FREE Pvt ltd\Flame_Free_Tool\Display.py", line 81, in run
+    line = self.ser.readline().decode(errors="ignore").strip()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 275, in read
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
